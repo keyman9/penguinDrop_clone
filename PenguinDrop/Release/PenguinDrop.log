@@ -1,0 +1,39 @@
+﻿Build started 6/16/2016 9:03:47 AM.
+     1>Project "C:\Users\Sam\Documents\Visual Studio 2013\Projects\PenguinDrop\PenguinDrop\PenguinDrop.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sam\Documents\Visual Studio 2013\Projects\PenguinDrop\Release\PenguinDrop.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Sam\Documents\Visual Studio 2013\Projects\PenguinDrop\Release\PenguinDrop.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sam\Documents\Visual Studio 2013\Projects\PenguinDrop\Release\PenguinDrop.lib" /MACHINE:X86 /SAFESEH Release\snowball.obj
+         Release\Source.obj
+         Release\enemy.obj
+     1>snowball.obj : error LNK2001: unresolved external symbol __imp__al_draw_bitmap
+     1>snowball.obj : error LNK2001: unresolved external symbol __imp__al_get_bitmap_width
+     1>snowball.obj : error LNK2001: unresolved external symbol __imp__al_load_bitmap
+     1>snowball.obj : error LNK2001: unresolved external symbol __imp__al_get_bitmap_height
+     1>snowball.obj : error LNK2001: unresolved external symbol __imp__al_destroy_bitmap
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_set_target_bitmap
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_flip_display
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_draw_rotated_bitmap
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_map_rgb
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_clear_to_color
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_register_event_source
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_wait_for_event
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_start_timer
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_get_keyboard_event_source
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_get_backbuffer
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_create_event_queue
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_create_display
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_create_timer
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_install_system
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_init_primitives_addon
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_get_display_event_source
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_get_timer_event_source
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_init_image_addon
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_destroy_display
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_install_keyboard
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_is_event_queue_empty
+     1>Source.obj : error LNK2001: unresolved external symbol __imp__al_rest
+     1>C:\Users\Sam\Documents\Visual Studio 2013\Projects\PenguinDrop\Release\PenguinDrop.exe : fatal error LNK1120: 27 unresolved externals
+     1>Done Building Project "C:\Users\Sam\Documents\Visual Studio 2013\Projects\PenguinDrop\PenguinDrop\PenguinDrop.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.64
